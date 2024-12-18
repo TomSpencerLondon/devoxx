@@ -79,4 +79,49 @@ https://thoughtbot.com/blog
 - Donald Knuth, Art of Computer Programming
 - Andrew Hunt, David Thomas, Pragmatic Programmer
 - Walter Isaacson, The Innovators
+- Charles Petsold, Annotated Turing
+- Aristotle, Organon
+- Maria-Rosa Antognazza, Liebniz An Intellectual Biography
+- Krzysztof R. Apt, Hoare Tony, Edsger Wybe Dijkstra, His Life, Work and Legacy
+- Go 
 
+### A Brief history of Concurrency in Computing
+Concurrency in computing, the simultaneous execution of multiple sequences of operations, has its roots in early computing and mathematical principles. The evolution of concurrency concepts has been significantly influenced by classical problem-solving principles and the contributions of pioneers like Edsger W. Dijkstra.
+
+**Early Foundations in Mathematics and Computing**
+
+The need for concurrent operations emerged with the advent of multiprogramming in the 1960s, where multiple programs were executed on a single processor to improve resource utilization. This development required mathematical models to manage and synchronize concurrent processes effectively. Early theoretical work, such as Petri nets introduced by Carl Adam Petri in 1962, provided a framework for modeling concurrent systems and analyzing their behavior. 
+
+**Classical Problem-Solving Principles**
+
+Classical problems in concurrency, often used to illustrate synchronization issues and techniques for resolving them, include:
+
+- **Producer-Consumer Problem**: Introduced by Dijkstra in 1965, this problem involves coordinating a producer generating data and a consumer processing it, ensuring they operate smoothly without conflicts. 
+
+- **Dining Philosophers Problem**: Formulated by Dijkstra as a student exam exercise in 1965, this problem illustrates the challenges of allocating shared resources among multiple processes without causing deadlock. 
+
+- **Sleeping Barber Problem**: Also introduced by Dijkstra in 1965, this problem is a classic inter-process communication and synchronization problem between multiple operating system processes. 
+
+**Contributions of Edsger W. Dijkstra**
+
+Edsger W. Dijkstra made foundational contributions to concurrency, including:
+
+- **Mutual Exclusion and Semaphores**: In his 1965 paper, "Solution of a Problem in Concurrent Programming Control," Dijkstra introduced the concept of mutual exclusion and proposed semaphores as a mechanism to control access to shared resources, preventing race conditions. 
+
+- **Cooperating Sequential Processes**: Dijkstra's 1965 manuscript, later published in 1968, laid the groundwork for concurrent programming by formalizing the interaction between processes and introducing synchronization mechanisms. 
+
+- **Banker's Algorithm**: Dijkstra developed this deadlock avoidance algorithm to ensure safe resource allocation in concurrent systems, preventing system-wide deadlocks. 
+
+**Evolution of Concurrency Concepts**
+
+Over time, concurrency concepts have evolved to address the increasing complexity of computing systems:
+
+- **Monitors**: In the early 1970s, C.A.R. Hoare and Per Brinch Hansen developed monitors as high-level synchronization constructs that encapsulate shared resources and the procedures that operate on them, simplifying concurrent programming. 
+
+- **Actor Model**: Introduced in the 1970s, the Actor Model conceptualizes concurrent computation through independent actors that communicate via message passing, eliminating the need for shared state and reducing synchronization issues. 
+
+- **Transactional Memory**: Emerging in the 1990s, transactional memory applies concepts from database transactions to memory operations, allowing concurrent processes to execute in isolation and commit changes atomically, thereby simplifying synchronization.
+
+- **Formal Verification Methods**: Techniques such as model checking and theorem proving have been developed to ensure the correctness of concurrent systems, allowing for the detection of potential issues like deadlocks and race conditions during the design phase.
+
+The progression of concurrency in computing reflects a continuous effort to manage the complexities of simultaneous operations, drawing from mathematical principles and the pioneering work of computer scientists like Dijkstra. This evolution has led to more robust, efficient, and reliable computing systems capable of handling the demands of modern applications. 
