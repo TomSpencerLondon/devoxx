@@ -83,7 +83,6 @@ https://thoughtbot.com/blog
 - Aristotle, Organon
 - Maria-Rosa Antognazza, Liebniz An Intellectual Biography
 - Krzysztof R. Apt, Hoare Tony, Edsger Wybe Dijkstra, His Life, Work and Legacy
-- Go 
 
 ### A Brief history of Concurrency in Computing
 Concurrency in computing, the simultaneous execution of multiple sequences of operations, has its roots in early computing and mathematical principles. The evolution of concurrency concepts has been significantly influenced by classical problem-solving principles and the contributions of pioneers like Edsger W. Dijkstra.
