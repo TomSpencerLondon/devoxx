@@ -80,4 +80,3 @@ https://thoughtbot.com/blog
 - Andrew Hunt, David Thomas, Pragmatic Programmer
 - Walter Isaacson, The Innovators
 
-# devoxx
